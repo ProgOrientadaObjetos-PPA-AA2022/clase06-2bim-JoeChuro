@@ -14,10 +14,10 @@ import paquete02.Ciudad;
  *
  * @author reroes
  */
-public class Principal {
+public class Principal2 {
 
     public static void main(String[] args) throws SQLException {
-        Scanner sc = new Scanner(System.in);
+        /* Scanner sc = new Scanner(System.in);
         int op;
         boolean bandera = true;
 
@@ -36,9 +36,10 @@ public class Principal {
             if (op == 1) {
                 bandera = false;
             }
-        } while (bandera);
-        // for (int i = 0; i < c.obtenerDataCiudad().size(); i++) {
-        //     System.out.printf("%s", c.obtenerDataCiudad().get(i));
-        // }
+        } while (bandera);*/
+        Enlace c = new Enlace();
+        for (int i = 0; i < c.obtenerDataCiudad().size(); i++) {
+        System.out.printf("%s", c.obtenerDataCiudad().get(i));
+        }
     }
 }
